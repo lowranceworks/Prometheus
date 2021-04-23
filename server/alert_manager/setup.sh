@@ -8,7 +8,7 @@ sudo cp alertmanager-0.21.0.linux-amd64/alertmanager /usr/local/bin
 sudo cp alertmanager-0.21.0.linux-amd64/amtool /usr/local/bin/
 sudo mkdir /var/lib/alertmanager
 
-rm -rf alertmanager*
+rm -rf alertmanager-0.21.0*
 
 # add Alertmanager configuration
 sudo cp ./alertmanager.yml /etc/prometheus/
@@ -32,6 +32,7 @@ sudo chown -R prometheus:prometheus /etc/prometheus
 # update prometheus config file 
 sudo cp ./prometheus.yml /etc/prometheus -f 
 
+echo #############################################################################################################
 echo create an app password 
 echo edit /etc/prometheus/prometheus.yml 
 echo edit /etc/systemd/system/alertmanager.service
