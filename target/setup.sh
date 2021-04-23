@@ -18,4 +18,4 @@ sudo systemctl status node-exporter
 
 # prompt next steps 
 echo ssh into the prometheus server and add this target to /etc/prometheus/prometheus.yml
-echo restart prometheus after applying these changes 
+echo after applying those changes, restart prometheus
