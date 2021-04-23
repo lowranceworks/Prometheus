@@ -1,5 +1,7 @@
 # Prometheus instructions
 
 ## set up guide
-[prometheus on aws ec2 part 1](https://codewizardly.com/prometheus-on-aws-ec2-part1/) \
-[prometheus on aws ec2 part 2](https://codewizardly.com/prometheus-on-aws-ec2-part2/) 
+[Install Prometheus on AWS EC2](https://codewizardly.com/prometheus-on-aws-ec2-part1/) \
+[Prometheus Node Exporter on AWS EC2](https://codewizardly.com/prometheus-on-aws-ec2-part2/) \
+[Prometheus Service Discovery on AWS EC2](https://codewizardly.com/prometheus-on-aws-ec2-part3/)
+[Prometheus Alertmanager Sending Emails](https://codewizardly.com/prometheus-on-aws-ec2-part4/)

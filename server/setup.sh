@@ -16,7 +16,7 @@ sudo cp prometheus-2.26.0.linux-amd64/promtool /usr/local/bin/
 rm -rf prometheus-2.26.0.linux-amd64.tar.gz prometheus-2.26.0.linux-amd64
 
 # add prometheus.yml and define prometheus as a service
-sudo cp ./prometheus.yml /etc/prometheus/prometheus.yml
+sudo cp ./basic-config/prometheus.yml /etc/prometheus/prometheus.yml
 sudo cp ./prometheus.service /etc/systemd/system/prometheus.service
 
 # configure permissions 
