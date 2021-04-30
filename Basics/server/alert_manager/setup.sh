@@ -6,7 +6,7 @@ tar xvfz alertmanager-0.21.0.linux-amd64.tar.gz
 
 sudo cp alertmanager-0.21.0.linux-amd64/alertmanager /usr/local/bin
 sudo cp alertmanager-0.21.0.linux-amd64/amtool /usr/local/bin/
-sudo mkdir /var/lib/alertmanager
+sudo mkdir /var/lib/alertmanager -f
 
 rm -rf alertmanager-0.21.0*
 
