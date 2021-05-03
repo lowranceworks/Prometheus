@@ -6,6 +6,7 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_e
 tar xzf node_exporter-1.1.2.linux-amd64.tar.gz
 sudo cp node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin/node_exporter
 rm -rf node_exporter-1.1.2.linux-amd64.tar.gz node_exporter-1.1.2.linux-amd64
+sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 
 # configure service
 sudo cp ./node-exporter.service /etc/systemd/system/
@@ -18,4 +19,4 @@ sudo systemctl status node-exporter
 
 # prompt next steps 
 echo ssh into the prometheus server and add this target to /etc/prometheus/prometheus.yml
-echo after applying those changes, restart prometheus
+echo after applying those changes, reload prometheus

@@ -1,3 +1,10 @@
-# Prometheus instructions
+# Prometheus 
+
+
+## Structure 
+Basics \
+OpsGenie \
+Prometheus Deep Dive \
+.
 
 
